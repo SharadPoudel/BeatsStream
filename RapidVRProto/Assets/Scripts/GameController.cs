@@ -71,9 +71,10 @@ public class GameController : MonoBehaviour
     {
         inGameUI.SetActive(false);
         postGameScoreLabel.text = "Your Score: " + score;
-        Instantiate(confettiParticle, new Vector3(5.30999994f, 16.5200005f, -95.4400024f), Quaternion.identity);
-        Instantiate(confettiParticle, new Vector3(17.2700005f, 19.7010021f, -95.4400024f), Quaternion.identity);
-        Instantiate(confettiParticle, new Vector3(29.0200005F, 16.5200005f, -95.4400024f), Quaternion.identity);
+        Instantiate(confettiParticle, new Vector3(5.30999994f, 10, -95.4400024f), Quaternion.identity);
+        Instantiate(confettiParticle, new Vector3(16,14, -95.4400024f), Quaternion.identity);
+        Instantiate(confettiParticle, new Vector3(20,14, -95.4400024f), Quaternion.identity);
+        Instantiate(confettiParticle, new Vector3(29.0200005F, 10, -95.4400024f), Quaternion.identity);
 
 
         postGameUI.SetActive(true);

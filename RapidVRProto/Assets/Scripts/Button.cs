@@ -41,7 +41,7 @@ public class Button : MonoBehaviour
     public void PressButton(int force)
     {
         colorLocked = (Time.time <= buttonPressDuration);
-        pressing = (force >= 50);
+        pressing = (force >= 75);
 
 
         if (!colorLocked)
